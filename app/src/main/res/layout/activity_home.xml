@@ -35,6 +35,47 @@
         android:padding="2dp"
         android:orientation="horizontal">
 
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:layout_marginLeft="10dp"
+            app:cardUseCompatPadding="true"
+            android:layout_marginTop="@dimen/mtrl_card_spacing"
+            android:layout_marginRight="@dimen/mtrl_card_spacing"
+            app:cardBackgroundColor="@color/dialog_background">
+
+           <ImageView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:src="@drawable/dialog"
+               android:padding="20dp"
+               />
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:layout_marginLeft="@dimen/mtrl_card_spacing"
+            app:cardUseCompatPadding="true"
+            android:layout_marginTop="@dimen/mtrl_card_spacing"
+            android:layout_marginRight="10dp"
+            app:cardBackgroundColor="@color/mobitel_background">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mobitel"
+                android:padding="20dp"
+                />
+
+        </com.google.android.material.card.MaterialCardView>
+
+
 
 
 
@@ -48,13 +89,59 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:textAlignment="center"
-        android:gravity="center"
-        android:orientation="vertical">
+        android:padding="2dp"
+        android:orientation="horizontal">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:layout_marginLeft="10dp"
+            app:cardUseCompatPadding="true"
+            android:layout_marginTop="@dimen/mtrl_card_spacing"
+            android:layout_marginRight="@dimen/mtrl_card_spacing"
+            app:cardBackgroundColor="@color/hutch_background">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/hutch"
+                android:padding="20dp"
+                />
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:layout_marginLeft="@dimen/mtrl_card_spacing"
+            app:cardUseCompatPadding="true"
+            android:layout_marginTop="@dimen/mtrl_card_spacing"
+            android:layout_marginRight="10dp"
+            app:cardBackgroundColor="@color/airtel_background">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/airtel"
+                android:padding="20dp"
+                />
+
+        </com.google.android.material.card.MaterialCardView>
+
 
 
 
     </LinearLayout>
+
+
+
+
+
+
 
 
     <LinearLayout
@@ -66,19 +153,42 @@
         android:orientation="vertical">
 
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:orientation="horizontal">
 
-    </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-thin"
+                android:text="CreatX "
+                android:textAlignment="center"
+                android:textColor="@color/creatX"
 
+                app:fontFamily="@font/raleway_medium" />
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:textAlignment="center"
-        android:gravity="center"
-        android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:fontFamily="sans-serif-thin"
+                android:textColor="@color/software"
+                android:text="Software"
+                app:fontFamily="@font/raleway_light" />
 
+        </LinearLayout>
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-thin"
+            android:textColor="@color/url"
+            android:text="www.creatxsoftware.com"
+            app:fontFamily="@font/raleway_light" />
 
     </LinearLayout>
 
