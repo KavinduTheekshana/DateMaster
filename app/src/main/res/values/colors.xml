@@ -12,4 +12,10 @@
     <color name="dialog_background">#ed1c24</color>
     <color name="hutch_background">#f58426</color>
     <color name="airtel_background">#e20010</color>
+
+    <color name="logo_blue">#45bccc</color>
+    <color name="logo_gray">#353e4a</color>
+
+    <color name="card_gray">#f7f7f7</color>
+    <color name="info_gray">#50555b</color>
 </resources>
