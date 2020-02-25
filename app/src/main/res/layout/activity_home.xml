@@ -43,8 +43,8 @@
             android:clickable="true"
             android:layout_marginLeft="10dp"
             app:cardUseCompatPadding="true"
-            android:layout_marginTop="@dimen/mtrl_card_spacing"
-            android:layout_marginRight="@dimen/mtrl_card_spacing"
+
+            android:layout_marginRight="2dp"
             app:cardBackgroundColor="@color/dialog_background">
 
            <ImageView
@@ -62,9 +62,9 @@
             android:layout_weight="1"
             android:layout_height="match_parent"
             android:clickable="true"
-            android:layout_marginLeft="@dimen/mtrl_card_spacing"
+            android:layout_marginLeft="2dp"
             app:cardUseCompatPadding="true"
-            android:layout_marginTop="@dimen/mtrl_card_spacing"
+
             android:layout_marginRight="10dp"
             app:cardBackgroundColor="@color/mobitel_background">
 
@@ -95,14 +95,15 @@
         android:orientation="horizontal">
 
         <com.google.android.material.card.MaterialCardView
+            android:id="@+id/btnHutch"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="match_parent"
             android:clickable="true"
             android:layout_marginLeft="10dp"
             app:cardUseCompatPadding="true"
-            android:layout_marginTop="@dimen/mtrl_card_spacing"
-            android:layout_marginRight="@dimen/mtrl_card_spacing"
+
+            android:layout_marginRight="2dp"
             app:cardBackgroundColor="@color/hutch_background">
 
             <ImageView
@@ -115,13 +116,13 @@
         </com.google.android.material.card.MaterialCardView>
 
         <com.google.android.material.card.MaterialCardView
+            android:id="@+id/btnAirtel"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="match_parent"
             android:clickable="true"
-            android:layout_marginLeft="@dimen/mtrl_card_spacing"
+            android:layout_marginLeft="2dp"
             app:cardUseCompatPadding="true"
-            android:layout_marginTop="@dimen/mtrl_card_spacing"
             android:layout_marginRight="10dp"
             app:cardBackgroundColor="@color/airtel_background">
 

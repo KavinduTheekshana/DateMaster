@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:baselineAligned="false"
+    android:gravity="center"
+    tools:context=".PackageListActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/dialog_back"
+            style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            app:iconGravity="textStart"
+            app:iconSize="40dp"
+            android:onClick="goToBack"
+            android:clickable="true"
+            android:insetBottom="0dp"
+            android:insetLeft="0dp"
+            android:insetRight="0dp"
+            android:insetTop="15dp"
+            app:iconPadding="0dp"
+            android:layout_height="match_parent"
+            app:iconTint="@color/logo_gray"
+            app:icon="@drawable/ic_arrow_back_black_24dp"/>
+
+        <ImageView
+            android:id="@+id/logoimage"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:src="@drawable/dialogcolor"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/material_icon_button2"
+            style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            app:iconGravity="textStart"
+            app:iconSize="40dp"
+            android:insetBottom="0dp"
+            android:insetLeft="0dp"
+            android:insetRight="0dp"
+            android:insetTop="15dp"
+            app:iconPadding="0dp"
+            android:layout_height="match_parent"
+            app:iconTint="@color/logo_gray"
+            app:icon="@drawable/ic_menu_black_24dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:textAlignment="center"
+        android:orientation="vertical">
+
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:padding="20dp"
+            android:layout_height="match_parent">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/allpack"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="4dp"
+                android:scrollbars="vertical">
+
+            </androidx.recyclerview.widget.RecyclerView>
+
+        </androidx.core.widget.NestedScrollView>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:padding="15dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/material_unelevated_button"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="match_parent"
+            android:enabled="false"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:backgroundTint="@color/logo_gray"
+            android:text="Activate Package"/>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+

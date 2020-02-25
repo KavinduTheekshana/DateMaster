@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/btnM05"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:layout_margin="2dp"
+        android:clickable="true"
+        android:layout_marginLeft="@dimen/mtrl_card_spacing"
+        android:layout_marginTop="@dimen/mtrl_card_spacing"
+        android:layout_marginRight="@dimen/mtrl_card_spacing"
+        android:minHeight="100dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/PackageLKR"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="LKR"
+                android:textAlignment="center"
+                android:includeFontPadding="false"
+                android:textSize="20dp"
+                android:fontFamily="@font/raleway_medium"></TextView>
+
+            <TextView
+                android:id="@+id/PackagePrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="05"
+                android:textAlignment="center"
+                android:includeFontPadding="false"
+                android:textSize="40dp"
+                android:fontFamily="@font/montserrat_bold"></TextView>
+
+        </LinearLayout>
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="match_parent"
+        android:layout_margin="2dp"
+        android:padding="25dp"
+        android:backgroundTint="@color/info_gray"
+        android:layout_marginLeft="@dimen/mtrl_card_spacing"
+        android:layout_marginTop="@dimen/mtrl_card_spacing"
+        android:layout_marginRight="@dimen/mtrl_card_spacing"
+        android:minHeight="100dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/PackageDataAnyTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="652MB (Anytime)"
+                android:textAlignment="center"
+                android:includeFontPadding="false"
+                android:textSize="18dp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/montserrat_bold"></TextView>
+
+            <TextView
+                android:id="@+id/PackageDataNightTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="652MB (Night time)"
+                android:textAlignment="center"
+                android:includeFontPadding="false"
+                android:textSize="18dp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/montserrat_bold"></TextView>
+
+            <TextView
+                android:id="@+id/PackageData4G"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="489MB (4G Bouns)"
+                android:textAlignment="center"
+                android:includeFontPadding="false"
+                android:textSize="18dp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/montserrat_bold"></TextView>
+
+            <TextView
+                android:id="@+id/PackageValidity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Validity : 21 Days"
+                android:textAlignment="center"
+                android:includeFontPadding="false"
+                android:textSize="15dp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/montserrat"></TextView>
+
+
+        </LinearLayout>
+
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>
