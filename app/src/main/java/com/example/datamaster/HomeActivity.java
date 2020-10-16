@@ -37,7 +37,7 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
         Intent i;
         switch (v.getId()){
             case R.id.btnMobitel : i = new Intent(this,PackageListActivity.class).putExtra("id","2") ;startActivity(i); break;
-            case R.id.btnDialog : i = new Intent(this,PackageListActivity.class).putExtra("id","1");startActivity(i);  break;
+
 //            case R.id.btnHutch : i = new Intent(this,Hutch.class);startActivity(i);  break;
 //            case R.id.btnAirtel : i = new Intent(this,Airtel.class);startActivity(i);  break;
             default:break;
